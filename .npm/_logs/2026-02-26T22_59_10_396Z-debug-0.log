@@ -1,0 +1,354 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.6.2
+2 info using node@v25.3.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install debug werift-rtp
+7 verbose argv "install" "debug" "werift-rtp"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-02-26T22_59_10_396Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-02-26T22_59_10_396Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly packumentCache heap:1080819712 maxSize:270204928 maxEntrySize:135102464
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest debug@*
+15 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/debug 585ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/debug set size:195840 disposed:false
+18 silly fetch manifest werift-rtp@*
+19 silly packumentCache full:https://registry.npmjs.org/werift-rtp cache-miss
+20 http cache https://registry.npmjs.org/werift-rtp 28ms (cache hit)
+21 silly packumentCache full:https://registry.npmjs.org/werift-rtp set size:212926 disposed:false
+22 silly placeDep ROOT debug@4.4.3 OK for:  want: *
+23 silly placeDep ROOT werift-rtp@0.8.8 REPLACE for:  want: *
+24 silly fetch manifest ms@^2.1.3
+25 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/ms 109ms (cache revalidated)
+27 silly packumentCache full:https://registry.npmjs.org/ms set size:92208 disposed:false
+28 silly placeDep ROOT ms@2.1.3 OK for: debug@4.4.3 want: ^2.1.3
+29 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@discordjs/builders' ]
+30 silly reify mark retired [
+30 silly reify   '/data/data/com.termux/files/home/node_modules/@discordjs/collection'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   '/data/data/com.termux/files/home/node_modules/@discordjs/formatters'
+31 silly reify ]
+32 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@discordjs/util' ]
+33 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@otplib/core' ]
+34 silly reify mark retired [
+34 silly reify   '/data/data/com.termux/files/home/node_modules/@otplib/plugin-crypto'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   '/data/data/com.termux/files/home/node_modules/@otplib/plugin-thirty-two'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   '/data/data/com.termux/files/home/node_modules/@otplib/preset-default'
+36 silly reify ]
+37 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@otplib/preset-v11' ]
+38 silly reify mark retired [
+38 silly reify   '/data/data/com.termux/files/home/node_modules/@sapphire/async-queue'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   '/data/data/com.termux/files/home/node_modules/@sapphire/shapeshift'
+39 silly reify ]
+40 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ansi-regex' ]
+41 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ansi-styles' ]
+42 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/asynckit' ]
+43 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/axios' ]
+44 silly reify mark retired [
+44 silly reify   '/data/data/com.termux/files/home/node_modules/call-bind-apply-helpers'
+44 silly reify ]
+45 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/camelcase' ]
+46 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/chalk' ]
+47 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/cliui' ]
+48 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/color-convert' ]
+49 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/color-name' ]
+50 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/combined-stream' ]
+51 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/commander' ]
+52 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/decamelize' ]
+53 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/delayed-stream' ]
+54 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/dijkstrajs' ]
+55 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/discord-api-types' ]
+56 silly reify mark retired [
+56 silly reify   '/data/data/com.termux/files/home/node_modules/discord.js-selfbot-v13'
+56 silly reify ]
+57 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/dunder-proto' ]
+58 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/emoji-regex' ]
+59 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/es-define-property' ]
+60 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/es-errors' ]
+61 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/es-object-atoms' ]
+62 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/es-set-tostringtag' ]
+63 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/fast-deep-equal' ]
+64 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/fetch-cookie' ]
+65 silly reify mark retired [
+65 silly reify   '/data/data/com.termux/files/home/node_modules/find-process',
+65 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/find-process'
+65 silly reify ]
+66 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/find-up' ]
+67 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/follow-redirects' ]
+68 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/form-data' ]
+69 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/function-bind' ]
+70 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/get-caller-file' ]
+71 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/get-intrinsic' ]
+72 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/get-proto' ]
+73 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/gopd' ]
+74 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/has-flag' ]
+75 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/has-symbols' ]
+76 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/has-tostringtag' ]
+77 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/hasown' ]
+78 silly reify mark retired [
+78 silly reify   '/data/data/com.termux/files/home/node_modules/is-fullwidth-code-point'
+78 silly reify ]
+79 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/locate-path' ]
+80 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/lodash' ]
+81 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/loglevel' ]
+82 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/math-intrinsics' ]
+83 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/mime-db' ]
+84 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/mime-types' ]
+85 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/otplib' ]
+86 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/p-limit' ]
+87 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/p-locate' ]
+88 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/p-try' ]
+89 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/path-exists' ]
+90 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/pngjs' ]
+91 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/prism-media' ]
+92 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/proxy-from-env' ]
+93 silly reify mark retired [
+93 silly reify   '/data/data/com.termux/files/home/node_modules/qrcode',
+93 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/qrcode'
+93 silly reify ]
+94 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/require-directory' ]
+95 silly reify mark retired [
+95 silly reify   '/data/data/com.termux/files/home/node_modules/require-main-filename'
+95 silly reify ]
+96 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/set-blocking' ]
+97 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/set-cookie-parser' ]
+98 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/string-width' ]
+99 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/strip-ansi' ]
+100 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/supports-color' ]
+101 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/thirty-two' ]
+102 silly reify mark retired [
+102 silly reify   '/data/data/com.termux/files/home/node_modules/tldts',
+102 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/tldts'
+102 silly reify ]
+103 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/tldts-core' ]
+104 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/tough-cookie' ]
+105 silly reify mark retired [
+105 silly reify   '/data/data/com.termux/files/home/node_modules/tree-kill',
+105 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/tree-kill'
+105 silly reify ]
+106 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ts-mixer' ]
+107 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/tslib' ]
+108 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/undici' ]
+109 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/which-module' ]
+110 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/wrap-ansi' ]
+111 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ws' ]
+112 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/y18n' ]
+113 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/yargs' ]
+114 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/yargs-parser' ]
+115 silly reify moves {
+115 silly reify   '/data/data/com.termux/files/home/node_modules/@discordjs/builders': '/data/data/com.termux/files/home/node_modules/@discordjs/.builders-YBU4BwkU',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/@discordjs/collection': '/data/data/com.termux/files/home/node_modules/@discordjs/.collection-5fvYvyVI',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/@discordjs/formatters': '/data/data/com.termux/files/home/node_modules/@discordjs/.formatters-p8lTxTsf',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/@discordjs/util': '/data/data/com.termux/files/home/node_modules/@discordjs/.util-O9FHJige',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/@otplib/core': '/data/data/com.termux/files/home/node_modules/@otplib/.core-QOyL6rIs',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/@otplib/plugin-crypto': '/data/data/com.termux/files/home/node_modules/@otplib/.plugin-crypto-K3Kc3So0',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/@otplib/plugin-thirty-two': '/data/data/com.termux/files/home/node_modules/@otplib/.plugin-thirty-two-A07MpmaJ',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/@otplib/preset-default': '/data/data/com.termux/files/home/node_modules/@otplib/.preset-default-WLXSMMRZ',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/@otplib/preset-v11': '/data/data/com.termux/files/home/node_modules/@otplib/.preset-v11-U2PjxEm4',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/@sapphire/async-queue': '/data/data/com.termux/files/home/node_modules/@sapphire/.async-queue-cmtIueZa',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/@sapphire/shapeshift': '/data/data/com.termux/files/home/node_modules/@sapphire/.shapeshift-ftWoeFxR',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/ansi-regex': '/data/data/com.termux/files/home/node_modules/.ansi-regex-rtQ4RThi',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/ansi-styles': '/data/data/com.termux/files/home/node_modules/.ansi-styles-RPQb6dFf',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/asynckit': '/data/data/com.termux/files/home/node_modules/.asynckit-lNiUE80q',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/axios': '/data/data/com.termux/files/home/node_modules/.axios-vJLmXTjc',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/call-bind-apply-helpers': '/data/data/com.termux/files/home/node_modules/.call-bind-apply-helpers-t4WTzyoc',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/camelcase': '/data/data/com.termux/files/home/node_modules/.camelcase-AX9tp5le',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/chalk': '/data/data/com.termux/files/home/node_modules/.chalk-E13fl7YQ',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/cliui': '/data/data/com.termux/files/home/node_modules/.cliui-os1roM22',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/color-convert': '/data/data/com.termux/files/home/node_modules/.color-convert-8bcE6J64',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/color-name': '/data/data/com.termux/files/home/node_modules/.color-name-KbtdJY8Z',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/combined-stream': '/data/data/com.termux/files/home/node_modules/.combined-stream-jzwv12di',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/commander': '/data/data/com.termux/files/home/node_modules/.commander-TdA8pqmq',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/decamelize': '/data/data/com.termux/files/home/node_modules/.decamelize-mTuu2Bxt',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/delayed-stream': '/data/data/com.termux/files/home/node_modules/.delayed-stream-pV0pOHZ6',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/dijkstrajs': '/data/data/com.termux/files/home/node_modules/.dijkstrajs-0oq7PRyy',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/discord-api-types': '/data/data/com.termux/files/home/node_modules/.discord-api-types-sSwCBIud',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/discord.js-selfbot-v13': '/data/data/com.termux/files/home/node_modules/.discord.js-selfbot-v13-Hog3hS6S',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/dunder-proto': '/data/data/com.termux/files/home/node_modules/.dunder-proto-xJsX1d1L',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/emoji-regex': '/data/data/com.termux/files/home/node_modules/.emoji-regex-39YmuHg0',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/es-define-property': '/data/data/com.termux/files/home/node_modules/.es-define-property-R0tWN4Xx',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/es-errors': '/data/data/com.termux/files/home/node_modules/.es-errors-fJozAEp8',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/es-object-atoms': '/data/data/com.termux/files/home/node_modules/.es-object-atoms-OrDhhCWl',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/es-set-tostringtag': '/data/data/com.termux/files/home/node_modules/.es-set-tostringtag-L9h2Zy42',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/fast-deep-equal': '/data/data/com.termux/files/home/node_modules/.fast-deep-equal-gcuwdiSS',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/fetch-cookie': '/data/data/com.termux/files/home/node_modules/.fetch-cookie-KkuU0yzO',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/find-process': '/data/data/com.termux/files/home/node_modules/.find-process-bEKburUT',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/find-process': '/data/data/com.termux/files/home/node_modules/.bin/.find-process-LI5XitTu',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/find-up': '/data/data/com.termux/files/home/node_modules/.find-up-BxmoIHi7',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/follow-redirects': '/data/data/com.termux/files/home/node_modules/.follow-redirects-0PkswIHf',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/form-data': '/data/data/com.termux/files/home/node_modules/.form-data-C8BxHCcz',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/function-bind': '/data/data/com.termux/files/home/node_modules/.function-bind-mG22eVRd',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/get-caller-file': '/data/data/com.termux/files/home/node_modules/.get-caller-file-etQa4bjF',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/get-intrinsic': '/data/data/com.termux/files/home/node_modules/.get-intrinsic-cE7LRW89',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/get-proto': '/data/data/com.termux/files/home/node_modules/.get-proto-5CxJLIDf',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/gopd': '/data/data/com.termux/files/home/node_modules/.gopd-nv8i6TfO',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/has-flag': '/data/data/com.termux/files/home/node_modules/.has-flag-tlC8Sgdw',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/has-symbols': '/data/data/com.termux/files/home/node_modules/.has-symbols-JfGc5lzw',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/has-tostringtag': '/data/data/com.termux/files/home/node_modules/.has-tostringtag-oh2K1y3S',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/hasown': '/data/data/com.termux/files/home/node_modules/.hasown-QbZYwwUe',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/is-fullwidth-code-point': '/data/data/com.termux/files/home/node_modules/.is-fullwidth-code-point-Yp4s1AgM',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/locate-path': '/data/data/com.termux/files/home/node_modules/.locate-path-2AS8oLcG',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/lodash': '/data/data/com.termux/files/home/node_modules/.lodash-pmAInmCR',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/loglevel': '/data/data/com.termux/files/home/node_modules/.loglevel-1fyrjAUJ',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/math-intrinsics': '/data/data/com.termux/files/home/node_modules/.math-intrinsics-rhLJyOuw',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/mime-db': '/data/data/com.termux/files/home/node_modules/.mime-db-bUZek4xA',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/mime-types': '/data/data/com.termux/files/home/node_modules/.mime-types-j4DVvKCN',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/otplib': '/data/data/com.termux/files/home/node_modules/.otplib-AKFvooUu',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/p-limit': '/data/data/com.termux/files/home/node_modules/.p-limit-iWMbJReO',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/p-locate': '/data/data/com.termux/files/home/node_modules/.p-locate-KkO9RuTl',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/p-try': '/data/data/com.termux/files/home/node_modules/.p-try-otJ6CmhA',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/path-exists': '/data/data/com.termux/files/home/node_modules/.path-exists-VVTt7tws',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/pngjs': '/data/data/com.termux/files/home/node_modules/.pngjs-dA80d3Id',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/prism-media': '/data/data/com.termux/files/home/node_modules/.prism-media-Oh2AfRnE',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/proxy-from-env': '/data/data/com.termux/files/home/node_modules/.proxy-from-env-b8qTVuZ0',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/qrcode': '/data/data/com.termux/files/home/node_modules/.qrcode-IfmeOapQ',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/qrcode': '/data/data/com.termux/files/home/node_modules/.bin/.qrcode-Zt0LCxLT',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/require-directory': '/data/data/com.termux/files/home/node_modules/.require-directory-aUlegYeH',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/require-main-filename': '/data/data/com.termux/files/home/node_modules/.require-main-filename-t3vhx3KU',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/set-blocking': '/data/data/com.termux/files/home/node_modules/.set-blocking-hwTdURTT',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/set-cookie-parser': '/data/data/com.termux/files/home/node_modules/.set-cookie-parser-iqA9kHjz',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/string-width': '/data/data/com.termux/files/home/node_modules/.string-width-QZtz2YOB',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/strip-ansi': '/data/data/com.termux/files/home/node_modules/.strip-ansi-gn4nxCJZ',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/supports-color': '/data/data/com.termux/files/home/node_modules/.supports-color-WOQDG9kR',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/thirty-two': '/data/data/com.termux/files/home/node_modules/.thirty-two-PkigUyPD',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/tldts': '/data/data/com.termux/files/home/node_modules/.tldts-67ehonWt',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/tldts': '/data/data/com.termux/files/home/node_modules/.bin/.tldts-g2UGxzMt',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/tldts-core': '/data/data/com.termux/files/home/node_modules/.tldts-core-EiIFlVGK',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/tough-cookie': '/data/data/com.termux/files/home/node_modules/.tough-cookie-aTG6dq1B',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/tree-kill': '/data/data/com.termux/files/home/node_modules/.tree-kill-ViJxVfDU',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/tree-kill': '/data/data/com.termux/files/home/node_modules/.bin/.tree-kill-tYbtfrmj',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/ts-mixer': '/data/data/com.termux/files/home/node_modules/.ts-mixer-2yll4hY6',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/tslib': '/data/data/com.termux/files/home/node_modules/.tslib-07hsHQs9',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/undici': '/data/data/com.termux/files/home/node_modules/.undici-H7tWo5Nt',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/which-module': '/data/data/com.termux/files/home/node_modules/.which-module-MbBvfqdp',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/wrap-ansi': '/data/data/com.termux/files/home/node_modules/.wrap-ansi-QiqLhR6I',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/ws': '/data/data/com.termux/files/home/node_modules/.ws-VQnzr2DR',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/y18n': '/data/data/com.termux/files/home/node_modules/.y18n-QuCjiBLU',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/yargs': '/data/data/com.termux/files/home/node_modules/.yargs-Yqwf57m6',
+115 silly reify   '/data/data/com.termux/files/home/node_modules/yargs-parser': '/data/data/com.termux/files/home/node_modules/.yargs-parser-DIkpohOm'
+115 silly reify }
+116 silly audit bulk request {
+116 silly audit   '@minhducsun2002/leb128': [ '1.0.0' ],
+116 silly audit   '@shinyoshiaki/jspack': [ '0.0.6' ],
+116 silly audit   'aes-js': [ '3.1.2' ],
+116 silly audit   'base64-js': [ '1.5.1' ],
+116 silly audit   buffer: [ '6.0.3' ],
+116 silly audit   ieee754: [ '1.2.1' ],
+116 silly audit   mp4box: [ '0.5.4' ],
+116 silly audit   debug: [ '4.4.3' ],
+116 silly audit   'werift-rtp': [ '0.8.8' ],
+116 silly audit   ms: [ '2.1.3' ]
+116 silly audit }
+117 http cache ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 0ms (cache hit)
+118 http cache debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 0ms (cache hit)
+119 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 336ms
+120 silly audit report {}
+121 silly ADD node_modules/ms
+122 silly ADD node_modules/debug
+123 silly REMOVE node_modules/yargs-parser
+124 silly REMOVE node_modules/yargs
+125 silly REMOVE node_modules/y18n
+126 silly REMOVE node_modules/ws
+127 silly REMOVE node_modules/wrap-ansi
+128 silly REMOVE node_modules/which-module
+129 silly REMOVE node_modules/undici
+130 silly REMOVE node_modules/tslib
+131 silly REMOVE node_modules/ts-mixer
+132 silly REMOVE node_modules/tree-kill
+133 silly REMOVE node_modules/tough-cookie
+134 silly REMOVE node_modules/tldts-core
+135 silly REMOVE node_modules/tldts
+136 silly REMOVE node_modules/thirty-two
+137 silly REMOVE node_modules/supports-color
+138 silly REMOVE node_modules/strip-ansi
+139 silly REMOVE node_modules/string-width
+140 silly REMOVE node_modules/set-cookie-parser
+141 silly REMOVE node_modules/set-blocking
+142 silly REMOVE node_modules/require-main-filename
+143 silly REMOVE node_modules/require-directory
+144 silly REMOVE node_modules/qrcode
+145 silly REMOVE node_modules/proxy-from-env
+146 silly REMOVE node_modules/prism-media
+147 silly REMOVE node_modules/pngjs
+148 silly REMOVE node_modules/path-exists
+149 silly REMOVE node_modules/p-try
+150 silly REMOVE node_modules/p-locate
+151 silly REMOVE node_modules/p-limit
+152 silly REMOVE node_modules/otplib
+153 silly REMOVE node_modules/mime-types
+154 silly REMOVE node_modules/mime-db
+155 silly REMOVE node_modules/math-intrinsics
+156 silly REMOVE node_modules/loglevel
+157 silly REMOVE node_modules/lodash
+158 silly REMOVE node_modules/locate-path
+159 silly REMOVE node_modules/is-fullwidth-code-point
+160 silly REMOVE node_modules/hasown
+161 silly REMOVE node_modules/has-tostringtag
+162 silly REMOVE node_modules/has-symbols
+163 silly REMOVE node_modules/has-flag
+164 silly REMOVE node_modules/gopd
+165 silly REMOVE node_modules/get-proto
+166 silly REMOVE node_modules/get-intrinsic
+167 silly REMOVE node_modules/get-caller-file
+168 silly REMOVE node_modules/function-bind
+169 silly REMOVE node_modules/form-data
+170 silly REMOVE node_modules/follow-redirects
+171 silly REMOVE node_modules/find-up
+172 silly REMOVE node_modules/find-process
+173 silly REMOVE node_modules/fetch-cookie
+174 silly REMOVE node_modules/fetch-cookie/node_modules/tough-cookie
+175 silly REMOVE node_modules/fetch-cookie/node_modules/tldts-core
+176 silly REMOVE node_modules/fetch-cookie/node_modules/tldts
+177 silly REMOVE node_modules/fast-deep-equal
+178 silly REMOVE node_modules/es-set-tostringtag
+179 silly REMOVE node_modules/es-object-atoms
+180 silly REMOVE node_modules/es-errors
+181 silly REMOVE node_modules/es-define-property
+182 silly REMOVE node_modules/emoji-regex
+183 silly REMOVE node_modules/dunder-proto
+184 silly REMOVE node_modules/discord.js-selfbot-v13
+185 silly REMOVE node_modules/discord-api-types
+186 silly REMOVE node_modules/dijkstrajs
+187 silly REMOVE node_modules/delayed-stream
+188 silly REMOVE node_modules/decamelize
+189 silly REMOVE node_modules/commander
+190 silly REMOVE node_modules/combined-stream
+191 silly REMOVE node_modules/color-name
+192 silly REMOVE node_modules/color-convert
+193 silly REMOVE node_modules/cliui
+194 silly REMOVE node_modules/chalk
+195 silly REMOVE node_modules/camelcase
+196 silly REMOVE node_modules/call-bind-apply-helpers
+197 silly REMOVE node_modules/axios
+198 silly REMOVE node_modules/asynckit
+199 silly REMOVE node_modules/ansi-styles
+200 silly REMOVE node_modules/ansi-regex
+201 silly REMOVE node_modules/@sapphire/shapeshift
+202 silly REMOVE node_modules/@sapphire/async-queue
+203 silly REMOVE node_modules/@otplib/preset-v11
+204 silly REMOVE node_modules/@otplib/preset-default
+205 silly REMOVE node_modules/@otplib/plugin-thirty-two
+206 silly REMOVE node_modules/@otplib/plugin-crypto
+207 silly REMOVE node_modules/@otplib/core
+208 silly REMOVE node_modules/@discordjs/util
+209 silly REMOVE node_modules/@discordjs/formatters
+210 silly REMOVE node_modules/@discordjs/collection
+211 silly REMOVE node_modules/@discordjs/builders
+212 verbose cwd /data/data/com.termux/files/home
+213 verbose os Linux 5.10.233-android12-9-00010-g70ad1d50b2d2-ab14134993
+214 verbose node v25.3.0
+215 verbose npm  v11.6.2
+216 verbose exit 0
+217 info ok

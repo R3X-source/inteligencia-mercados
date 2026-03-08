@@ -1,0 +1,60 @@
+const { Client } = require('discord.js-selfbot-v13');
+const client = new Client({ checkUpdate: false });
+
+// --- TU TOKEN ---
+const TOKEN = 'MTQ1Njk1OTUyMTU4NTg4OTQzNg.GpvJJw.lojeRfLHjytEAIBiDM20lw57ijOJ8qzzrKDH9s';
+
+const OBJETIVOS = [
+     '1423439348430405722', '1429177016703516764'
+];
+
+const ID_USUARIA_SIN_PING = '1429177016703516764';
+
+const MENSAJE_LARGO = `0 TROLEO DE TUS NALGAS PVTITA GAMAMITA VAS A TENER Q CHUPAR MIS HUEBOTS QUE VAN A SER INSOPORTABLES PARA TUS POBRES NALGAS Q NI LAS DEJAREMOS EXTENDER PUESTO A Q ACABAMOS con la putita de cjotiña 🤣 🤣🤣😂😂😂 viniste por vengaza y te tiras bien penetrada putit4 rolera jsjsjaja. burla a chatarrera gamamita do monclova ENTENDISTE ZORR4??? NOSOTROS COMO BUENOS SWATEANOS TE APLACAMOS FEO LA PANOCHA GAMAMITA  🤣🤣🤣 🤣 HEY PUTA TE TOCARÁ FILTRAR A TU MACHA INSANA POR ANDAR HABLANDO DE TU NALGA Y PIDIENDO Q NO, o tenes miedo perr4???? <@1446586105553227807> CHATARRERA GAMAMITA VIOLADA 🤣 PESORRAZO MONCLOVEÑI GAMAMITEANO <@1429177016703516764> <@1426606724458217674> callese indiaka irrelevante pe Attachments: https://media.discordapp.net/attachments/1430982734066749604/1460382350620753993/Screenshot_20251116_223554.jpg https://media.discordapp.net/attachments/1430982734066749604/1460382350939652310/SPOILER_Screenshot_2025-11-03-11-48-34-947_com.ludashi.superboost-edit.jpg https://media.discordapp.net/attachments/1430982734066749604/1460382351468007689/IMG_20251012_182350.jpg https://media.discordapp.net/attachments/1430982734066749604/1460382351841296527/Screenshot_2023-02-02-19-52-33-94_f9ee0578fe1cc94de7482bd41accb329.jpg <@1423439348430405722> <@1271616299851583580> QLO DE DUENDA <@1438662990021922869> <@1455444386421674007> cierra la naoga trul`;
+
+const MENSAJE_SIN_PING = "nalgavina.";
+
+let cooldown = 0;
+
+client.on('ready', () => {
+    console.log(`✅ Auto-respondedor activo: ${client.user.tag}`);
+});
+
+client.on('messageCreate', async (msg) => {
+    if (msg.author.id === client.user.id) return;
+
+    const ahora = Date.now();
+
+    // 1. CASO USUARIA ESPECIAL: Solo si te menciona o responde a tu mensaje directamente
+    if (msg.author.id === ID_USUARIA_SIN_PING) {
+        const esRespuestaAMi = msg.reference && (await msg.channel.messages.fetch(msg.reference.messageId)).author.id === client.user.id;
+        const meMenciono = msg.mentions.has(client.user.id);
+
+        if (esRespuestaAMi || meMenciono) {
+            try {
+                await msg.channel.send(MENSAJE_SIN_PING);
+                cooldown = ahora;
+            } catch (e) {}
+        }
+        return; // No sigue con la lógica de spam para ella
+    }
+
+    // 2. CASO OBJETIVOS GENERALES: Respuesta rápida si hay mención
+    if (OBJETIVOS.includes(msg.author.id) && msg.mentions.has(client.user.id)) {
+        try {
+            await msg.reply({ content: MENSAJE_LARGO });
+            cooldown = ahora;
+            return;
+        } catch (e) {}
+    }
+
+    // 3. SPAM MODERADO: Cada 20 segundos si hablan normal
+    if (OBJETIVOS.includes(msg.author.id) && ahora - cooldown > 20000) {
+        try {
+            await msg.reply({ content: MENSAJE_LARGO });
+            cooldown = ahora;
+        } catch (e) {}
+    }
+});
+
+client.login(TOKEN);

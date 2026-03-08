@@ -1,0 +1,102 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.6.2
+2 info using node@v25.2.1
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install discord.js-selfbot-v13
+7 verbose argv "install" "discord.js-selfbot-v13"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-01-12T20_08_36_324Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-01-12T20_08_36_324Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:1080819712 maxSize:270204928 maxEntrySize:135102464
+12 silly idealTree buildDeps
+13 silly fetch manifest discord.js-selfbot-v13@^3.7.1
+14 silly packumentCache full:https://registry.npmjs.org/discord.js-selfbot-v13 cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/discord.js-selfbot-v13 1566ms (cache revalidated)
+16 silly packumentCache full:https://registry.npmjs.org/discord.js-selfbot-v13 set size:1038461 disposed:false
+17 silly placeDep ROOT discord.js-selfbot-v13@3.7.1 REPLACE for: home@1.0.0 want: ^3.7.1
+18 silly reify moves {}
+19 silly audit bulk request {
+19 silly audit   '@discordjs/builders': [ '1.13.1' ],
+19 silly audit   '@discordjs/collection': [ '2.1.1' ],
+19 silly audit   '@discordjs/formatters': [ '0.6.2' ],
+19 silly audit   '@discordjs/util': [ '1.2.0' ],
+19 silly audit   '@minhducsun2002/leb128': [ '1.0.0' ],
+19 silly audit   '@otplib/core': [ '12.0.1' ],
+19 silly audit   '@otplib/plugin-crypto': [ '12.0.1' ],
+19 silly audit   '@otplib/plugin-thirty-two': [ '12.0.1' ],
+19 silly audit   '@otplib/preset-default': [ '12.0.1' ],
+19 silly audit   '@otplib/preset-v11': [ '12.0.1' ],
+19 silly audit   '@sapphire/async-queue': [ '1.5.5' ],
+19 silly audit   '@sapphire/shapeshift': [ '4.0.0' ],
+19 silly audit   '@shinyoshiaki/jspack': [ '0.0.6' ],
+19 silly audit   'aes-js': [ '3.1.2' ],
+19 silly audit   'ansi-regex': [ '5.0.1' ],
+19 silly audit   'ansi-styles': [ '4.3.0' ],
+19 silly audit   'base64-js': [ '1.5.1' ],
+19 silly audit   buffer: [ '6.0.3' ],
+19 silly audit   camelcase: [ '5.3.1' ],
+19 silly audit   chalk: [ '4.1.2' ],
+19 silly audit   cliui: [ '6.0.0' ],
+19 silly audit   'color-convert': [ '2.0.1' ],
+19 silly audit   'color-name': [ '1.1.4' ],
+19 silly audit   commander: [ '12.1.0' ],
+19 silly audit   debug: [ '4.4.3' ],
+19 silly audit   decamelize: [ '1.2.0' ],
+19 silly audit   dijkstrajs: [ '1.0.3' ],
+19 silly audit   'discord-api-types': [ '0.38.37' ],
+19 silly audit   'emoji-regex': [ '8.0.0' ],
+19 silly audit   'fast-deep-equal': [ '3.1.3' ],
+19 silly audit   'fetch-cookie': [ '3.2.0' ],
+19 silly audit   tldts: [ '7.0.19', '6.1.86' ],
+19 silly audit   'tldts-core': [ '7.0.19', '6.1.86' ],
+19 silly audit   'tough-cookie': [ '6.0.0', '5.1.2' ],
+19 silly audit   'find-process': [ '2.0.0' ],
+19 silly audit   'find-up': [ '4.1.0' ],
+19 silly audit   'get-caller-file': [ '2.0.5' ],
+19 silly audit   'has-flag': [ '4.0.0' ],
+19 silly audit   ieee754: [ '1.2.1' ],
+19 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+19 silly audit   'locate-path': [ '5.0.0' ],
+19 silly audit   lodash: [ '4.17.21' ],
+19 silly audit   loglevel: [ '1.9.2' ],
+19 silly audit   mp4box: [ '0.5.4' ],
+19 silly audit   ms: [ '2.1.3' ],
+19 silly audit   otplib: [ '12.0.1' ],
+19 silly audit   'p-limit': [ '2.3.0' ],
+19 silly audit   'p-locate': [ '4.1.0' ],
+19 silly audit   'p-try': [ '2.2.0' ],
+19 silly audit   'path-exists': [ '4.0.0' ],
+19 silly audit   pngjs: [ '5.0.0' ],
+19 silly audit   'prism-media': [ '1.3.5' ],
+19 silly audit   qrcode: [ '1.5.4' ],
+19 silly audit   'require-directory': [ '2.1.1' ],
+19 silly audit   'require-main-filename': [ '2.0.0' ],
+19 silly audit   'set-blocking': [ '2.0.0' ],
+19 silly audit   'set-cookie-parser': [ '2.7.2' ],
+19 silly audit   'string-width': [ '4.2.3' ],
+19 silly audit   'strip-ansi': [ '6.0.1' ],
+19 silly audit   'supports-color': [ '7.2.0' ],
+19 silly audit   'thirty-two': [ '1.0.2' ],
+19 silly audit   'tree-kill': [ '1.2.2' ],
+19 silly audit   'ts-mixer': [ '6.0.4' ],
+19 silly audit   tslib: [ '2.8.1' ],
+19 silly audit   undici: [ '7.18.2' ],
+19 silly audit   'werift-rtp': [ '0.8.8' ],
+19 silly audit   'which-module': [ '2.0.1' ],
+19 silly audit   'wrap-ansi': [ '6.2.0' ],
+19 silly audit   ws: [ '8.19.0' ],
+19 silly audit   y18n: [ '4.0.3' ],
+19 silly audit   yargs: [ '15.4.1' ],
+19 silly audit   'yargs-parser': [ '18.1.3' ],
+19 silly audit   'discord.js-selfbot-v13': [ '3.7.1' ]
+19 silly audit }
+20 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 791ms
+21 silly audit report {}
+22 verbose cwd /data/data/com.termux/files/home
+23 verbose os Linux 5.10.233-android12-9-00001-g3f8134695cb5-ab13232202
+24 verbose node v25.2.1
+25 verbose npm  v11.6.2
+26 verbose exit 0
+27 info ok

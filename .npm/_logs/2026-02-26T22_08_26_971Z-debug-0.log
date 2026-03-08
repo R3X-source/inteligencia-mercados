@@ -1,0 +1,513 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.6.2
+2 info using node@v25.3.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install axios
+7 verbose argv "install" "axios"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-02-26T22_08_26_971Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-02-26T22_08_26_971Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:1080819712 maxSize:270204928 maxEntrySize:135102464
+12 silly idealTree buildDeps
+13 silly fetch manifest axios@*
+14 silly packumentCache full:https://registry.npmjs.org/axios cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/axios 1088ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/axios set size:undefined disposed:false
+17 silly placeDep ROOT axios@1.13.5 OK for:  want: *
+18 silly fetch manifest form-data@^4.0.5
+19 silly packumentCache full:https://registry.npmjs.org/form-data cache-miss
+20 silly fetch manifest proxy-from-env@^1.1.0
+21 silly packumentCache full:https://registry.npmjs.org/proxy-from-env cache-miss
+22 silly fetch manifest follow-redirects@^1.15.11
+23 silly packumentCache full:https://registry.npmjs.org/follow-redirects cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/form-data 173ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/form-data set size:undefined disposed:false
+26 http fetch GET 200 https://registry.npmjs.org/follow-redirects 354ms (cache revalidated)
+27 silly packumentCache full:https://registry.npmjs.org/follow-redirects set size:186700 disposed:false
+28 http fetch GET 200 https://registry.npmjs.org/proxy-from-env 427ms (cache updated)
+29 silly packumentCache full:https://registry.npmjs.org/proxy-from-env set size:undefined disposed:false
+30 silly placeDep ROOT follow-redirects@1.15.11 OK for: axios@1.13.5 want: ^1.15.11
+31 silly placeDep ROOT form-data@4.0.5 OK for: axios@1.13.5 want: ^4.0.5
+32 silly placeDep ROOT proxy-from-env@1.1.0 OK for: axios@1.13.5 want: ^1.1.0
+33 silly fetch manifest asynckit@^0.4.0
+34 silly packumentCache full:https://registry.npmjs.org/asynckit cache-miss
+35 silly fetch manifest combined-stream@^1.0.8
+36 silly packumentCache full:https://registry.npmjs.org/combined-stream cache-miss
+37 silly fetch manifest es-set-tostringtag@^2.1.0
+38 silly packumentCache full:https://registry.npmjs.org/es-set-tostringtag cache-miss
+39 http fetch GET 200 https://registry.npmjs.org/asynckit 218ms (cache miss)
+40 silly packumentCache full:https://registry.npmjs.org/asynckit set size:undefined disposed:false
+41 silly fetch manifest hasown@^2.0.2
+42 silly packumentCache full:https://registry.npmjs.org/hasown cache-miss
+43 http fetch GET 200 https://registry.npmjs.org/es-set-tostringtag 228ms (cache miss)
+44 silly packumentCache full:https://registry.npmjs.org/es-set-tostringtag set size:undefined disposed:false
+45 silly fetch manifest mime-types@^2.1.12
+46 silly packumentCache full:https://registry.npmjs.org/mime-types cache-miss
+47 http fetch GET 200 https://registry.npmjs.org/combined-stream 249ms (cache miss)
+48 silly packumentCache full:https://registry.npmjs.org/combined-stream set size:undefined disposed:false
+49 http fetch GET 200 https://registry.npmjs.org/hasown 152ms (cache revalidated)
+50 silly packumentCache full:https://registry.npmjs.org/hasown set size:12476 disposed:false
+51 http fetch GET 200 https://registry.npmjs.org/mime-types 169ms (cache miss)
+52 silly packumentCache full:https://registry.npmjs.org/mime-types set size:undefined disposed:false
+53 silly placeDep ROOT asynckit@0.4.0 OK for: form-data@4.0.5 want: ^0.4.0
+54 silly placeDep ROOT combined-stream@1.0.8 OK for: form-data@4.0.5 want: ^1.0.8
+55 silly placeDep ROOT es-set-tostringtag@2.1.0 OK for: form-data@4.0.5 want: ^2.1.0
+56 silly placeDep ROOT hasown@2.0.2 OK for: form-data@4.0.5 want: ^2.0.2
+57 silly placeDep ROOT mime-types@2.1.35 OK for: form-data@4.0.5 want: ^2.1.12
+58 silly fetch manifest delayed-stream@~1.0.0
+59 silly packumentCache full:https://registry.npmjs.org/delayed-stream cache-miss
+60 silly fetch manifest es-errors@^1.3.0
+61 silly packumentCache full:https://registry.npmjs.org/es-errors cache-miss
+62 silly fetch manifest get-intrinsic@^1.2.6
+63 silly packumentCache full:https://registry.npmjs.org/get-intrinsic cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/es-errors 210ms (cache miss)
+65 silly packumentCache full:https://registry.npmjs.org/es-errors set size:undefined disposed:false
+66 silly fetch manifest has-tostringtag@^1.0.2
+67 silly packumentCache full:https://registry.npmjs.org/has-tostringtag cache-miss
+68 http fetch GET 200 https://registry.npmjs.org/get-intrinsic 223ms (cache miss)
+69 silly packumentCache full:https://registry.npmjs.org/get-intrinsic set size:undefined disposed:false
+70 silly fetch manifest function-bind@^1.1.2
+71 silly packumentCache full:https://registry.npmjs.org/function-bind cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/delayed-stream 256ms (cache miss)
+73 silly packumentCache full:https://registry.npmjs.org/delayed-stream set size:undefined disposed:false
+74 silly fetch manifest mime-db@1.52.0
+75 silly packumentCache full:https://registry.npmjs.org/mime-db cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/has-tostringtag 107ms (cache miss)
+77 silly packumentCache full:https://registry.npmjs.org/has-tostringtag set size:undefined disposed:false
+78 http fetch GET 200 https://registry.npmjs.org/function-bind 136ms (cache revalidated)
+79 silly packumentCache full:https://registry.npmjs.org/function-bind set size:15733 disposed:false
+80 http fetch GET 200 https://registry.npmjs.org/mime-db 135ms (cache miss)
+81 silly packumentCache full:https://registry.npmjs.org/mime-db set size:undefined disposed:false
+82 silly placeDep ROOT delayed-stream@1.0.0 OK for: combined-stream@1.0.8 want: ~1.0.0
+83 silly placeDep ROOT es-errors@1.3.0 OK for: es-set-tostringtag@2.1.0 want: ^1.3.0
+84 silly placeDep ROOT get-intrinsic@1.3.0 OK for: es-set-tostringtag@2.1.0 want: ^1.2.6
+85 silly placeDep ROOT has-tostringtag@1.0.2 OK for: es-set-tostringtag@2.1.0 want: ^1.0.2
+86 silly fetch manifest gopd@^1.2.0
+87 silly packumentCache full:https://registry.npmjs.org/gopd cache-miss
+88 silly fetch manifest get-proto@^1.0.1
+89 silly packumentCache full:https://registry.npmjs.org/get-proto cache-miss
+90 silly fetch manifest has-symbols@^1.1.0
+91 silly packumentCache full:https://registry.npmjs.org/has-symbols cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/has-symbols 120ms (cache miss)
+93 silly packumentCache full:https://registry.npmjs.org/has-symbols set size:undefined disposed:false
+94 silly fetch manifest es-object-atoms@^1.1.1
+95 silly packumentCache full:https://registry.npmjs.org/es-object-atoms cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/gopd 152ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/gopd set size:undefined disposed:false
+98 silly fetch manifest math-intrinsics@^1.1.0
+99 silly packumentCache full:https://registry.npmjs.org/math-intrinsics cache-miss
+100 http fetch GET 200 https://registry.npmjs.org/get-proto 165ms (cache miss)
+101 silly packumentCache full:https://registry.npmjs.org/get-proto set size:undefined disposed:false
+102 silly fetch manifest es-define-property@^1.0.1
+103 silly packumentCache full:https://registry.npmjs.org/es-define-property cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/es-object-atoms 78ms (cache miss)
+105 silly packumentCache full:https://registry.npmjs.org/es-object-atoms set size:undefined disposed:false
+106 silly fetch manifest call-bind-apply-helpers@^1.0.2
+107 silly packumentCache full:https://registry.npmjs.org/call-bind-apply-helpers cache-miss
+108 http fetch GET 200 https://registry.npmjs.org/math-intrinsics 126ms (cache miss)
+109 silly packumentCache full:https://registry.npmjs.org/math-intrinsics set size:undefined disposed:false
+110 silly fetch manifest has-symbols@^1.0.3
+111 silly packumentCache full:https://registry.npmjs.org/has-symbols cache-miss
+112 http fetch GET 200 https://registry.npmjs.org/es-define-property 135ms (cache miss)
+113 silly packumentCache full:https://registry.npmjs.org/es-define-property set size:undefined disposed:false
+114 http fetch GET 200 https://registry.npmjs.org/call-bind-apply-helpers 107ms (cache miss)
+115 silly packumentCache full:https://registry.npmjs.org/call-bind-apply-helpers set size:undefined disposed:false
+116 http cache https://registry.npmjs.org/has-symbols 47ms (cache hit)
+117 silly packumentCache full:https://registry.npmjs.org/has-symbols set size:21550 disposed:false
+118 silly placeDep ROOT call-bind-apply-helpers@1.0.2 OK for: get-intrinsic@1.3.0 want: ^1.0.2
+119 silly placeDep ROOT es-define-property@1.0.1 OK for: get-intrinsic@1.3.0 want: ^1.0.1
+120 silly placeDep ROOT es-object-atoms@1.1.1 OK for: get-intrinsic@1.3.0 want: ^1.1.1
+121 silly placeDep ROOT function-bind@1.1.2 OK for: get-intrinsic@1.3.0 want: ^1.1.2
+122 silly placeDep ROOT get-proto@1.0.1 OK for: get-intrinsic@1.3.0 want: ^1.0.1
+123 silly placeDep ROOT gopd@1.2.0 OK for: get-intrinsic@1.3.0 want: ^1.2.0
+124 silly placeDep ROOT has-symbols@1.1.0 OK for: get-intrinsic@1.3.0 want: ^1.1.0
+125 silly placeDep ROOT math-intrinsics@1.1.0 OK for: get-intrinsic@1.3.0 want: ^1.1.0
+126 silly fetch manifest dunder-proto@^1.0.1
+127 silly packumentCache full:https://registry.npmjs.org/dunder-proto cache-miss
+128 http fetch GET 200 https://registry.npmjs.org/dunder-proto 94ms (cache miss)
+129 silly packumentCache full:https://registry.npmjs.org/dunder-proto set size:undefined disposed:false
+130 silly placeDep ROOT dunder-proto@1.0.1 OK for: get-proto@1.0.1 want: ^1.0.1
+131 silly placeDep ROOT mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+132 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@discordjs/builders' ]
+133 silly reify mark retired [
+133 silly reify   '/data/data/com.termux/files/home/node_modules/@discordjs/collection'
+133 silly reify ]
+134 silly reify mark retired [
+134 silly reify   '/data/data/com.termux/files/home/node_modules/@discordjs/formatters'
+134 silly reify ]
+135 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@discordjs/util' ]
+136 silly reify mark retired [
+136 silly reify   '/data/data/com.termux/files/home/node_modules/@minhducsun2002/leb128'
+136 silly reify ]
+137 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@otplib/core' ]
+138 silly reify mark retired [
+138 silly reify   '/data/data/com.termux/files/home/node_modules/@otplib/plugin-crypto'
+138 silly reify ]
+139 silly reify mark retired [
+139 silly reify   '/data/data/com.termux/files/home/node_modules/@otplib/plugin-thirty-two'
+139 silly reify ]
+140 silly reify mark retired [
+140 silly reify   '/data/data/com.termux/files/home/node_modules/@otplib/preset-default'
+140 silly reify ]
+141 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@otplib/preset-v11' ]
+142 silly reify mark retired [
+142 silly reify   '/data/data/com.termux/files/home/node_modules/@sapphire/async-queue'
+142 silly reify ]
+143 silly reify mark retired [
+143 silly reify   '/data/data/com.termux/files/home/node_modules/@sapphire/shapeshift'
+143 silly reify ]
+144 silly reify mark retired [
+144 silly reify   '/data/data/com.termux/files/home/node_modules/@shinyoshiaki/jspack'
+144 silly reify ]
+145 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/aes-js' ]
+146 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ansi-regex' ]
+147 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ansi-styles' ]
+148 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/base64-js' ]
+149 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/buffer' ]
+150 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/camelcase' ]
+151 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/chalk' ]
+152 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/cliui' ]
+153 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/color-convert' ]
+154 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/color-name' ]
+155 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/commander' ]
+156 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/debug' ]
+157 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/decamelize' ]
+158 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/dijkstrajs' ]
+159 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/discord-api-types' ]
+160 silly reify mark retired [
+160 silly reify   '/data/data/com.termux/files/home/node_modules/discord.js-selfbot-v13'
+160 silly reify ]
+161 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/emoji-regex' ]
+162 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/fast-deep-equal' ]
+163 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/fetch-cookie' ]
+164 silly reify mark retired [
+164 silly reify   '/data/data/com.termux/files/home/node_modules/find-process',
+164 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/find-process'
+164 silly reify ]
+165 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/find-up' ]
+166 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/get-caller-file' ]
+167 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/has-flag' ]
+168 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ieee754' ]
+169 silly reify mark retired [
+169 silly reify   '/data/data/com.termux/files/home/node_modules/is-fullwidth-code-point'
+169 silly reify ]
+170 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/locate-path' ]
+171 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/lodash' ]
+172 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/loglevel' ]
+173 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/mp4box' ]
+174 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ms' ]
+175 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/otplib' ]
+176 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/p-limit' ]
+177 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/p-locate' ]
+178 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/p-try' ]
+179 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/path-exists' ]
+180 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/pngjs' ]
+181 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/prism-media' ]
+182 silly reify mark retired [
+182 silly reify   '/data/data/com.termux/files/home/node_modules/qrcode',
+182 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/qrcode'
+182 silly reify ]
+183 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/require-directory' ]
+184 silly reify mark retired [
+184 silly reify   '/data/data/com.termux/files/home/node_modules/require-main-filename'
+184 silly reify ]
+185 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/set-blocking' ]
+186 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/set-cookie-parser' ]
+187 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/string-width' ]
+188 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/strip-ansi' ]
+189 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/supports-color' ]
+190 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/thirty-two' ]
+191 silly reify mark retired [
+191 silly reify   '/data/data/com.termux/files/home/node_modules/tldts',
+191 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/tldts'
+191 silly reify ]
+192 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/tldts-core' ]
+193 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/tough-cookie' ]
+194 silly reify mark retired [
+194 silly reify   '/data/data/com.termux/files/home/node_modules/tree-kill',
+194 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/tree-kill'
+194 silly reify ]
+195 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ts-mixer' ]
+196 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/tslib' ]
+197 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/undici' ]
+198 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/werift-rtp' ]
+199 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/which-module' ]
+200 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/wrap-ansi' ]
+201 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ws' ]
+202 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/y18n' ]
+203 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/yargs' ]
+204 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/yargs-parser' ]
+205 silly reify moves {
+205 silly reify   '/data/data/com.termux/files/home/node_modules/@discordjs/builders': '/data/data/com.termux/files/home/node_modules/@discordjs/.builders-YBU4BwkU',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/@discordjs/collection': '/data/data/com.termux/files/home/node_modules/@discordjs/.collection-5fvYvyVI',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/@discordjs/formatters': '/data/data/com.termux/files/home/node_modules/@discordjs/.formatters-p8lTxTsf',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/@discordjs/util': '/data/data/com.termux/files/home/node_modules/@discordjs/.util-O9FHJige',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/@minhducsun2002/leb128': '/data/data/com.termux/files/home/node_modules/@minhducsun2002/.leb128-q4g133GD',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/@otplib/core': '/data/data/com.termux/files/home/node_modules/@otplib/.core-QOyL6rIs',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/@otplib/plugin-crypto': '/data/data/com.termux/files/home/node_modules/@otplib/.plugin-crypto-K3Kc3So0',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/@otplib/plugin-thirty-two': '/data/data/com.termux/files/home/node_modules/@otplib/.plugin-thirty-two-A07MpmaJ',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/@otplib/preset-default': '/data/data/com.termux/files/home/node_modules/@otplib/.preset-default-WLXSMMRZ',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/@otplib/preset-v11': '/data/data/com.termux/files/home/node_modules/@otplib/.preset-v11-U2PjxEm4',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/@sapphire/async-queue': '/data/data/com.termux/files/home/node_modules/@sapphire/.async-queue-cmtIueZa',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/@sapphire/shapeshift': '/data/data/com.termux/files/home/node_modules/@sapphire/.shapeshift-ftWoeFxR',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/@shinyoshiaki/jspack': '/data/data/com.termux/files/home/node_modules/@shinyoshiaki/.jspack-qM4CUsWi',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/aes-js': '/data/data/com.termux/files/home/node_modules/.aes-js-9Zgr9lYP',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/ansi-regex': '/data/data/com.termux/files/home/node_modules/.ansi-regex-rtQ4RThi',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/ansi-styles': '/data/data/com.termux/files/home/node_modules/.ansi-styles-RPQb6dFf',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/base64-js': '/data/data/com.termux/files/home/node_modules/.base64-js-GFQnGdZO',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/buffer': '/data/data/com.termux/files/home/node_modules/.buffer-fGjWfg7c',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/camelcase': '/data/data/com.termux/files/home/node_modules/.camelcase-AX9tp5le',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/chalk': '/data/data/com.termux/files/home/node_modules/.chalk-E13fl7YQ',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/cliui': '/data/data/com.termux/files/home/node_modules/.cliui-os1roM22',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/color-convert': '/data/data/com.termux/files/home/node_modules/.color-convert-8bcE6J64',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/color-name': '/data/data/com.termux/files/home/node_modules/.color-name-KbtdJY8Z',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/commander': '/data/data/com.termux/files/home/node_modules/.commander-TdA8pqmq',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/debug': '/data/data/com.termux/files/home/node_modules/.debug-TkhpOaas',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/decamelize': '/data/data/com.termux/files/home/node_modules/.decamelize-mTuu2Bxt',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/dijkstrajs': '/data/data/com.termux/files/home/node_modules/.dijkstrajs-0oq7PRyy',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/discord-api-types': '/data/data/com.termux/files/home/node_modules/.discord-api-types-sSwCBIud',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/discord.js-selfbot-v13': '/data/data/com.termux/files/home/node_modules/.discord.js-selfbot-v13-Hog3hS6S',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/emoji-regex': '/data/data/com.termux/files/home/node_modules/.emoji-regex-39YmuHg0',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/fast-deep-equal': '/data/data/com.termux/files/home/node_modules/.fast-deep-equal-gcuwdiSS',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/fetch-cookie': '/data/data/com.termux/files/home/node_modules/.fetch-cookie-KkuU0yzO',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/find-process': '/data/data/com.termux/files/home/node_modules/.find-process-bEKburUT',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/find-process': '/data/data/com.termux/files/home/node_modules/.bin/.find-process-LI5XitTu',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/find-up': '/data/data/com.termux/files/home/node_modules/.find-up-BxmoIHi7',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/get-caller-file': '/data/data/com.termux/files/home/node_modules/.get-caller-file-etQa4bjF',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/has-flag': '/data/data/com.termux/files/home/node_modules/.has-flag-tlC8Sgdw',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/ieee754': '/data/data/com.termux/files/home/node_modules/.ieee754-nLDyTTcA',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/is-fullwidth-code-point': '/data/data/com.termux/files/home/node_modules/.is-fullwidth-code-point-Yp4s1AgM',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/locate-path': '/data/data/com.termux/files/home/node_modules/.locate-path-2AS8oLcG',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/lodash': '/data/data/com.termux/files/home/node_modules/.lodash-pmAInmCR',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/loglevel': '/data/data/com.termux/files/home/node_modules/.loglevel-1fyrjAUJ',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/mp4box': '/data/data/com.termux/files/home/node_modules/.mp4box-1HuKh6zy',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/ms': '/data/data/com.termux/files/home/node_modules/.ms-jWq6nSfg',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/otplib': '/data/data/com.termux/files/home/node_modules/.otplib-AKFvooUu',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/p-limit': '/data/data/com.termux/files/home/node_modules/.p-limit-iWMbJReO',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/p-locate': '/data/data/com.termux/files/home/node_modules/.p-locate-KkO9RuTl',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/p-try': '/data/data/com.termux/files/home/node_modules/.p-try-otJ6CmhA',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/path-exists': '/data/data/com.termux/files/home/node_modules/.path-exists-VVTt7tws',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/pngjs': '/data/data/com.termux/files/home/node_modules/.pngjs-dA80d3Id',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/prism-media': '/data/data/com.termux/files/home/node_modules/.prism-media-Oh2AfRnE',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/qrcode': '/data/data/com.termux/files/home/node_modules/.qrcode-IfmeOapQ',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/qrcode': '/data/data/com.termux/files/home/node_modules/.bin/.qrcode-Zt0LCxLT',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/require-directory': '/data/data/com.termux/files/home/node_modules/.require-directory-aUlegYeH',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/require-main-filename': '/data/data/com.termux/files/home/node_modules/.require-main-filename-t3vhx3KU',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/set-blocking': '/data/data/com.termux/files/home/node_modules/.set-blocking-hwTdURTT',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/set-cookie-parser': '/data/data/com.termux/files/home/node_modules/.set-cookie-parser-iqA9kHjz',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/string-width': '/data/data/com.termux/files/home/node_modules/.string-width-QZtz2YOB',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/strip-ansi': '/data/data/com.termux/files/home/node_modules/.strip-ansi-gn4nxCJZ',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/supports-color': '/data/data/com.termux/files/home/node_modules/.supports-color-WOQDG9kR',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/thirty-two': '/data/data/com.termux/files/home/node_modules/.thirty-two-PkigUyPD',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/tldts': '/data/data/com.termux/files/home/node_modules/.tldts-67ehonWt',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/tldts': '/data/data/com.termux/files/home/node_modules/.bin/.tldts-g2UGxzMt',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/tldts-core': '/data/data/com.termux/files/home/node_modules/.tldts-core-EiIFlVGK',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/tough-cookie': '/data/data/com.termux/files/home/node_modules/.tough-cookie-aTG6dq1B',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/tree-kill': '/data/data/com.termux/files/home/node_modules/.tree-kill-ViJxVfDU',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/tree-kill': '/data/data/com.termux/files/home/node_modules/.bin/.tree-kill-tYbtfrmj',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/ts-mixer': '/data/data/com.termux/files/home/node_modules/.ts-mixer-2yll4hY6',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/tslib': '/data/data/com.termux/files/home/node_modules/.tslib-07hsHQs9',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/undici': '/data/data/com.termux/files/home/node_modules/.undici-H7tWo5Nt',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/werift-rtp': '/data/data/com.termux/files/home/node_modules/.werift-rtp-YDHPsi11',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/which-module': '/data/data/com.termux/files/home/node_modules/.which-module-MbBvfqdp',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/wrap-ansi': '/data/data/com.termux/files/home/node_modules/.wrap-ansi-QiqLhR6I',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/ws': '/data/data/com.termux/files/home/node_modules/.ws-VQnzr2DR',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/y18n': '/data/data/com.termux/files/home/node_modules/.y18n-QuCjiBLU',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/yargs': '/data/data/com.termux/files/home/node_modules/.yargs-Yqwf57m6',
+205 silly reify   '/data/data/com.termux/files/home/node_modules/yargs-parser': '/data/data/com.termux/files/home/node_modules/.yargs-parser-DIkpohOm'
+205 silly reify }
+206 silly audit bulk request {
+206 silly audit   axios: [ '1.13.5' ],
+206 silly audit   'follow-redirects': [ '1.15.11' ],
+206 silly audit   'form-data': [ '4.0.5' ],
+206 silly audit   'proxy-from-env': [ '1.1.0' ],
+206 silly audit   asynckit: [ '0.4.0' ],
+206 silly audit   'combined-stream': [ '1.0.8' ],
+206 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+206 silly audit   hasown: [ '2.0.2' ],
+206 silly audit   'mime-types': [ '2.1.35' ],
+206 silly audit   'delayed-stream': [ '1.0.0' ],
+206 silly audit   'es-errors': [ '1.3.0' ],
+206 silly audit   'get-intrinsic': [ '1.3.0' ],
+206 silly audit   'has-tostringtag': [ '1.0.2' ],
+206 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+206 silly audit   'es-define-property': [ '1.0.1' ],
+206 silly audit   'es-object-atoms': [ '1.1.1' ],
+206 silly audit   'function-bind': [ '1.1.2' ],
+206 silly audit   'get-proto': [ '1.0.1' ],
+206 silly audit   gopd: [ '1.2.0' ],
+206 silly audit   'has-symbols': [ '1.1.0' ],
+206 silly audit   'math-intrinsics': [ '1.1.0' ],
+206 silly audit   'dunder-proto': [ '1.0.1' ],
+206 silly audit   'mime-db': [ '1.52.0' ]
+206 silly audit }
+207 http cache mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 0ms (cache hit)
+208 http cache dunder-proto@https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz 1ms (cache hit)
+209 http cache math-intrinsics@https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz 0ms (cache hit)
+210 http cache has-symbols@https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz 0ms (cache hit)
+211 http cache gopd@https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz 0ms (cache hit)
+212 http cache get-proto@https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz 0ms (cache hit)
+213 http cache function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz 0ms (cache hit)
+214 http cache es-object-atoms@https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz 1ms (cache hit)
+215 http cache es-define-property@https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz 0ms (cache hit)
+216 http cache call-bind-apply-helpers@https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz 1ms (cache hit)
+217 http cache has-tostringtag@https://registry.npmjs.org/has-tostringtag/-/has-tostringtag-1.0.2.tgz 0ms (cache hit)
+218 http cache get-intrinsic@https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz 0ms (cache hit)
+219 http cache es-errors@https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz 0ms (cache hit)
+220 http cache delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 0ms (cache hit)
+221 http cache mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 0ms (cache hit)
+222 http cache hasown@https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz 0ms (cache hit)
+223 http cache combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 0ms (cache hit)
+224 http cache es-set-tostringtag@https://registry.npmjs.org/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz 0ms (cache hit)
+225 http cache asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 0ms (cache hit)
+226 http cache proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 0ms (cache hit)
+227 http cache form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.5.tgz 0ms (cache hit)
+228 http cache follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.11.tgz 1ms (cache hit)
+229 http cache axios@https://registry.npmjs.org/axios/-/axios-1.13.5.tgz 0ms (cache hit)
+230 silly tarball no local data for mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz. Extracting by manifest.
+231 silly tarball no local data for dunder-proto@https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz. Extracting by manifest.
+232 silly tarball no local data for math-intrinsics@https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz. Extracting by manifest.
+233 silly tarball no local data for has-symbols@https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz. Extracting by manifest.
+234 silly tarball no local data for gopd@https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz. Extracting by manifest.
+235 silly tarball no local data for get-proto@https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz. Extracting by manifest.
+236 silly tarball no local data for es-object-atoms@https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz. Extracting by manifest.
+237 silly tarball no local data for es-define-property@https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz. Extracting by manifest.
+238 silly tarball no local data for call-bind-apply-helpers@https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz. Extracting by manifest.
+239 silly tarball no local data for has-tostringtag@https://registry.npmjs.org/has-tostringtag/-/has-tostringtag-1.0.2.tgz. Extracting by manifest.
+240 silly tarball no local data for get-intrinsic@https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz. Extracting by manifest.
+241 silly tarball no local data for es-errors@https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz. Extracting by manifest.
+242 silly tarball no local data for delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz. Extracting by manifest.
+243 silly tarball no local data for mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz. Extracting by manifest.
+244 silly tarball no local data for combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz. Extracting by manifest.
+245 silly tarball no local data for es-set-tostringtag@https://registry.npmjs.org/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz. Extracting by manifest.
+246 silly tarball no local data for asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz. Extracting by manifest.
+247 silly tarball no local data for form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.5.tgz. Extracting by manifest.
+248 silly tarball no local data for axios@https://registry.npmjs.org/axios/-/axios-1.13.5.tgz. Extracting by manifest.
+249 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 672ms
+250 silly audit report {}
+251 http fetch GET 200 https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz 1282ms (cache miss)
+252 http fetch GET 200 https://registry.npmjs.org/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz 1222ms (cache miss)
+253 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 1337ms (cache miss)
+254 http fetch GET 200 https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz 1488ms (cache miss)
+255 http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 1454ms (cache miss)
+256 http fetch GET 200 https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz 1492ms (cache miss)
+257 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-4.0.5.tgz 1432ms (cache miss)
+258 http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 1471ms (cache miss)
+259 http fetch GET 200 https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz 1559ms (cache miss)
+260 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 1649ms (cache miss)
+261 http fetch GET 200 https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz 1694ms (cache miss)
+262 http fetch GET 200 https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz 1692ms (cache miss)
+263 http fetch GET 200 https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz 1689ms (cache miss)
+264 http fetch GET 200 https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz 1727ms (cache miss)
+265 http fetch GET 200 https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 1722ms (cache miss)
+266 http fetch GET 200 https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz 1821ms (cache miss)
+267 http fetch GET 200 https://registry.npmjs.org/has-tostringtag/-/has-tostringtag-1.0.2.tgz 1783ms (cache miss)
+268 http fetch GET 200 https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz 1886ms (cache miss)
+269 http fetch GET 200 https://registry.npmjs.org/axios/-/axios-1.13.5.tgz 2221ms (cache miss)
+270 silly ADD node_modules/mime-db
+271 silly ADD node_modules/dunder-proto
+272 silly ADD node_modules/math-intrinsics
+273 silly ADD node_modules/has-symbols
+274 silly ADD node_modules/gopd
+275 silly ADD node_modules/get-proto
+276 silly ADD node_modules/function-bind
+277 silly ADD node_modules/es-object-atoms
+278 silly ADD node_modules/es-define-property
+279 silly ADD node_modules/call-bind-apply-helpers
+280 silly ADD node_modules/has-tostringtag
+281 silly ADD node_modules/get-intrinsic
+282 silly ADD node_modules/es-errors
+283 silly ADD node_modules/delayed-stream
+284 silly ADD node_modules/mime-types
+285 silly ADD node_modules/hasown
+286 silly ADD node_modules/es-set-tostringtag
+287 silly ADD node_modules/combined-stream
+288 silly ADD node_modules/asynckit
+289 silly ADD node_modules/proxy-from-env
+290 silly ADD node_modules/form-data
+291 silly ADD node_modules/follow-redirects
+292 silly ADD node_modules/axios
+293 silly REMOVE node_modules/yargs-parser
+294 silly REMOVE node_modules/yargs
+295 silly REMOVE node_modules/y18n
+296 silly REMOVE node_modules/ws
+297 silly REMOVE node_modules/wrap-ansi
+298 silly REMOVE node_modules/which-module
+299 silly REMOVE node_modules/werift-rtp
+300 silly REMOVE node_modules/undici
+301 silly REMOVE node_modules/tslib
+302 silly REMOVE node_modules/ts-mixer
+303 silly REMOVE node_modules/tree-kill
+304 silly REMOVE node_modules/tough-cookie
+305 silly REMOVE node_modules/tldts-core
+306 silly REMOVE node_modules/tldts
+307 silly REMOVE node_modules/thirty-two
+308 silly REMOVE node_modules/supports-color
+309 silly REMOVE node_modules/strip-ansi
+310 silly REMOVE node_modules/string-width
+311 silly REMOVE node_modules/set-cookie-parser
+312 silly REMOVE node_modules/set-blocking
+313 silly REMOVE node_modules/require-main-filename
+314 silly REMOVE node_modules/require-directory
+315 silly REMOVE node_modules/qrcode
+316 silly REMOVE node_modules/prism-media
+317 silly REMOVE node_modules/pngjs
+318 silly REMOVE node_modules/path-exists
+319 silly REMOVE node_modules/p-try
+320 silly REMOVE node_modules/p-locate
+321 silly REMOVE node_modules/p-limit
+322 silly REMOVE node_modules/otplib
+323 silly REMOVE node_modules/ms
+324 silly REMOVE node_modules/mp4box
+325 silly REMOVE node_modules/loglevel
+326 silly REMOVE node_modules/lodash
+327 silly REMOVE node_modules/locate-path
+328 silly REMOVE node_modules/is-fullwidth-code-point
+329 silly REMOVE node_modules/ieee754
+330 silly REMOVE node_modules/has-flag
+331 silly REMOVE node_modules/get-caller-file
+332 silly REMOVE node_modules/find-up
+333 silly REMOVE node_modules/find-process
+334 silly REMOVE node_modules/fetch-cookie
+335 silly REMOVE node_modules/fetch-cookie/node_modules/tough-cookie
+336 silly REMOVE node_modules/fetch-cookie/node_modules/tldts-core
+337 silly REMOVE node_modules/fetch-cookie/node_modules/tldts
+338 silly REMOVE node_modules/fast-deep-equal
+339 silly REMOVE node_modules/emoji-regex
+340 silly REMOVE node_modules/discord.js-selfbot-v13
+341 silly REMOVE node_modules/discord-api-types
+342 silly REMOVE node_modules/dijkstrajs
+343 silly REMOVE node_modules/decamelize
+344 silly REMOVE node_modules/debug
+345 silly REMOVE node_modules/commander
+346 silly REMOVE node_modules/color-name
+347 silly REMOVE node_modules/color-convert
+348 silly REMOVE node_modules/cliui
+349 silly REMOVE node_modules/chalk
+350 silly REMOVE node_modules/camelcase
+351 silly REMOVE node_modules/buffer
+352 silly REMOVE node_modules/base64-js
+353 silly REMOVE node_modules/ansi-styles
+354 silly REMOVE node_modules/ansi-regex
+355 silly REMOVE node_modules/aes-js
+356 silly REMOVE node_modules/@shinyoshiaki/jspack
+357 silly REMOVE node_modules/@sapphire/shapeshift
+358 silly REMOVE node_modules/@sapphire/async-queue
+359 silly REMOVE node_modules/@otplib/preset-v11
+360 silly REMOVE node_modules/@otplib/preset-default
+361 silly REMOVE node_modules/@otplib/plugin-thirty-two
+362 silly REMOVE node_modules/@otplib/plugin-crypto
+363 silly REMOVE node_modules/@otplib/core
+364 silly REMOVE node_modules/@minhducsun2002/leb128
+365 silly REMOVE node_modules/@discordjs/util
+366 silly REMOVE node_modules/@discordjs/formatters
+367 silly REMOVE node_modules/@discordjs/collection
+368 silly REMOVE node_modules/@discordjs/builders
+369 verbose cwd /data/data/com.termux/files/home
+370 verbose os Linux 5.10.233-android12-9-00010-g70ad1d50b2d2-ab14134993
+371 verbose node v25.3.0
+372 verbose npm  v11.6.2
+373 verbose exit 0
+374 info ok
